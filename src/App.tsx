@@ -22,6 +22,7 @@ import {
   Calendar,
   ArrowUp
 } from 'lucide-react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 // --- Types ---
 interface Service {
@@ -853,6 +854,7 @@ export default function App() {
           </div>
         </footer>
         <BackToTop />
+        <SpeedInsights />
       </div>
     </div>
   );
