@@ -22,6 +22,7 @@ import {
   Calendar,
   ArrowUp
 } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 // --- Types ---
 interface Service {
@@ -854,6 +855,7 @@ export default function App() {
         </footer>
         <BackToTop />
       </div>
+      <Analytics />
     </div>
   );
 }
